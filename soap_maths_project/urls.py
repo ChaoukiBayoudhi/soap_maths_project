@@ -19,9 +19,7 @@ from django.urls import include, path
 from maths_app import urls
 
 
-
-
 urlpatterns = [
-    path("maths/",include(urls) , name="mathsApplicationb"),
     path('admin/', admin.site.urls),
+    path('maths/',include(urls)),
 ]
