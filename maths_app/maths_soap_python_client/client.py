@@ -3,7 +3,7 @@ try:
 except ImportError:
     print('Could not import suds library')
 maths_client=Client('http://localhost:8000/maths?wsdl')
-print(maths_client) # print SOAP Service informations
+print(maths_client) # print SOAP Service information
 x=input('x = ? ')
 y=input('y = ? ')
 max=maths_client.service.max(x,y)
