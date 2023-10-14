@@ -1,3 +1,4 @@
+
 from spyne.service import ServiceBase
 from spyne.decorator import rpc
 from spyne.model.primitive import Double
